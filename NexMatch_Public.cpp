@@ -140,10 +140,6 @@ static void AddTrayIcon() {
     if (!hIcon) hIcon = LoadIcon(NULL, IDI_APPLICATION);
     g_nid.hIcon = hIcon;
     wcscpy_s(g_nid.szTip, L"NexMatch Anti Cheat");
-    static const GUID myGUID = {0x23456789,0x2345,0x6789,
-        {0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF,0x01}};
-    g_nid.guidItem = myGUID;
-    g_nid.uFlags |= NIF_GUID;
     Shell_NotifyIconW(NIM_DELETE, &g_nid);
     Sleep(100);
     if (Shell_NotifyIconW(NIM_ADD, &g_nid)) {
