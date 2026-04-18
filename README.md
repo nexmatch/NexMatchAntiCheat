@@ -1,6 +1,6 @@
 # 🛡️ NexMatch Anti-Cheat (Client)
 
-NexMatch rekabetçi platformu için geliştirilmiş, şeffaflık odaklı anti-cheat yazılımı.
+NexMatch turnuva platformu için geliştirilmiş, şeffaflık odaklı anti-cheat yazılımı.
 
 ## ✨ Şeffaflık ve Güvenlik
 * **Açık Kaynak:** Kullanıcı arayüzü ve temel istemci mantığı (NexMatch_Public.cpp) tamamen incelenebilir durumdadır. Bilgisayarınızda gizli bir işlem yapılmadığını görebilirsiniz.
